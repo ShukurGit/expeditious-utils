@@ -2,6 +2,7 @@
   <Project Path="AppConsoleTester/AppConsoleTester.csproj" />
   <Project Path="Expeditious.Candidates/Expeditious.Candidates.csproj" />
   <Project Path="Expeditious.Common/Expeditious.Common.csproj" />
+  <Project Path="Expeditious.DataSecurity/Expeditious.DataSecurity.csproj" Id="56b25e84-0d96-4284-8bbe-9f94b8d4ba2d" />
   <Project Path="Expeditious.UsefulExtensions/Expeditious.UsefulExtensions.csproj" />
   <Project Path="Expeditious.WpfWinUI/Expeditious.WpfWinUI.csproj" />
 </Solution>

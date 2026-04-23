@@ -12,7 +12,8 @@ namespace Expeditious.Common
         private const string ALPHABET_AZECYR = "АБВГҒДЕӘЖЗИЫЈКҜЛМНОӨПРСТУҮФХҺЧҸШабвгғдеәжзиыјкҝлмноөпрстуүфхһчҹш";
         private const string ALPHABET_RUS = "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя";
 
-        
+        public const string DIGITS = "0123456789";
+
         //public const string ALPHABET_ENG = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
         //public const string ALPHABET_ENG_BIG = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
         //public const string ALPHABET_ENG_SMALL = "abcdefghijklmnopqrstuvwxyz";
