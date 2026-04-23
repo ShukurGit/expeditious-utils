@@ -1,0 +1,82 @@
+Id|No|AtdType|AtdStatus|Ad|Rayon|Qtisadi|NameAz|IsRepublic|IsCity|Y|X|NameEn|NameRu|District|DistrictNo|DistrictRu|GeoShape|ProjId
+1|1|city|district capital city|Ağcabədi|Ağcabədi rayonu|Aran|Ağcabədi|0|1|40.052778|47.461389|Aghjabadi|Агджабеди|Ağcabədi rayonu|2|Агджабединский район|POINT (47.461389 40.052778)|4326
+2|2|city|district capital city|Ağdam|Ağdam rayonu|Yuxarı Qarabağ|Ağdam|0|1|39.993056|46.930556|Agdam|Агдам|Ağdam rayonu|3|Агдамский район|POINT (46.930556 39.993056)|4326
+3|3|city|district capital city|Ağdaş|Ağdaş rayonu|Aran|Ağdaş|0|1|40.65|47.476111|Agdash|Агдаш|Ağdaş rayonu|4|Агдашский район|POINT (47.476111 40.65)|4326
+4|4|city|district capital city|Ağdərə|Tərtər rayonu (əvvəllər hazırda ləğv olunmuş Ağdərə rayonu)|Yuxarı Qarabağ|Ağdərə|0|1|40.73333|45.65|Agdere|Агдере|Tərtər rayonu|-1||POINT (45.65 40.73333)|4326
+5|5|city|district capital city|Ağstafa|Ağstafa rayonu|Gəncə-Qazax|Ağstafa|0|1|41.118889|45.453889|Aghstafa|Агстафа|Ağstafa rayonu|5|Агстафинский район|POINT (45.453889 41.118889)|4326
+6|6|city|district capital city|Ağsu|Ağsu rayonu|Dağlıq Şirvan|Ağsu|0|1|40.569167|48.400833|Agsu|Ахсу|Ağsu rayonu|6|Ахсуйский район|POINT (48.400833 40.569167)|4326
+7|7|city|district capital city|Astara|Astara rayonu|Lənkəran|Astara|0|1|38.45|48.875|Astara|Астара|Astara rayonu|7|Астаринский район|POINT (48.875 38.45)|4326
+8|8|city|district capital city|Babək|Babək rayonu|Naxçıvan|Babək|0|1|39.151944|45.441667|Babek|Бабек|Babək rayonu|8||POINT (45.441667 39.151944)|4326
+9|9|city of republican subordination|republic capital city|Bakı|Respublika tabeli şəhər|Abşeron|Bakı|1|1|40.366656|49.835183|Baku|Баку|Bakı şəhəri|-1||POINT (49.835183 40.366656)|4326
+10|10|city|district capital city|Balakən|Balakən rayonu|Şəki-Zaqatala|Balakən|0|1|41.725833|46.408333|Balakan|Балакен|Balakən rayonu|9|Балакенский район|POINT (46.408333 41.725833)|4326
+11|11|city|district capital city|Beyləqan|Beyləqan rayonu|Aran|Beyləqan|0|1|39.775556|47.618611|Beylagan|Бейлаган|Beyləqan rayonu|10|Бардинский район|POINT (47.618611 39.775556)|4326
+12|12|city|district capital city|Bərdə|Bərdə rayonu|Aran|Bərdə|0|1|40.374444|47.126667|Barda|Барда|Bərdə rayonu|11|Бейлаганский район|POINT (47.126667 40.374444)|4326
+13|13|city|district capital city|Biləsuvar|Biləsuvar rayonu|Aran|Biləsuvar|0|1|39.458333|48.545|Bilasuvar|Билясувар|Biləsuvar rayonu|12|Билясуварский район|POINT (48.545 39.458333)|4326
+14|14|city|district capital city|Cəbrayıl|Cəbrayıl rayonu|Yuxarı Qarabağ|Cəbrayıl|0|1|39.4|47.026111|Jabrayil|Джебраил|Cəbrayıl rayonu|13|Джебраильский район|POINT (47.026111 39.4)|4326
+15|15|city|district capital city|Cəlilabad|Cəlilabad rayonu|Lənkəran|Cəlilabad|0|1|39.208889|48.497222|Jalilabad|Джалилабад|Cəlilabad rayonu|14|Джалилабадский район|POINT (48.497222 39.208889)|4326
+16|16|city|district capital city|Culfa|Respublika tabeli şəhər|Naxçıvan|Culfa|0|1|38.955833|45.630833|Julfa|Джульфа|Culfa rayonu|15||POINT (45.630833 38.955833)|4326
+17|17|city|district capital city|Daşkəsən|Daşkəsən rayonu|Gəncə-Qazax|Daşkəsən|0|1|40.494722|46.077222|Dashkasan|Дашкесан|Daşkəsən rayonu|16|Дашкесанский район|POINT (46.077222 40.494722)|4326
+18|18|city|district capital city|Dəliməmmədli|Goranboy rayonu|Gəncə-Qazax|Dəliməmmədli|0|1|40.6925|46.57472|Dalimamedli|Далимамедли|Goranboy rayonu|-1||POINT (46.57472 40.6925)|4326
+19|19|city|district capital city|Xocalı|Xocalı rayonu (əvvəllər hazırda ləğv olunmuş Əsgəran rayonu)|Yuxarı Qarabağ|Xocalı|0|1|39.91306|46.79028|Xocalı|Ходжалы|Xocalı rayonu|-1||POINT (46.79028 39.91306)|4326
+20|20|city|district capital city|Füzuli|Füzuli rayonu|Yuxarı Qarabağ|Füzuli|0|1|39.600278|47.143056|Fuzuli|Физули|Füzuli rayonu|17|Физулинский район|POINT (47.143056 39.600278)|4326
+21|21|city|district capital city|Gədəbəy|Gədəbəy rayonu|Gəncə-Qazax|Gədəbəy|0|1|40.565556|45.816111|Gadabay|Кедабек|Gədəbəy rayonu|18|Кедабекский район|POINT (45.816111 40.565556)|4326
+22|22|city of republican subordination|city|Gəncə|Respublika tabeli şəhər|Gəncə-Qazax|Gəncə|1|1|40.68278|46.36056|Ganja|Гянджа|Gəncə şəhəri|-1||POINT (46.36056 40.68278)|4326
+23|23|city|district capital city|Goranboy|Goranboy rayonu|Gəncə-Qazax|Goranboy|0|1|40.610278|46.789722|Goranboy|Геранбой|Goranboy rayonu|19|Геранбойский район|POINT (46.789722 40.610278)|4326
+24|24|city|district capital city|Göyçay|Göyçay rayonu|Aran|Göyçay|0|1|40.653056|47.740556|Goychay|Гёйчай|Göyçay rayonu|20|Гёйчайский район|POINT (47.740556 40.653056)|4326
+25|25|city|district capital city|Göygöl|Göygöl rayonu|Gəncə-Qazax|Göygöl|0|1|40.586944|46.315833|Goygol|Гёйгёль|Göygöl rayonu|21||POINT (46.315833 40.586944)|4326
+26|26|city|district capital city|Göytəpə|Cəlilabad rayonu|Lənkəran|Göytəpə|0|1|39.116667|48.595278|Goytapa|Гёйтепе|Cəlilabad rayonu|-1||POINT (48.595278 39.116667)|4326
+27|27|city|district capital city|Hacıqabul|Hacıqabul rayonu|Aran|Hacıqabul|0|1|40.043333|48.935556|Hajiqabul|Аджикабул|Hacıqabul rayonu|22|Аджигабульский район|POINT (48.935556 40.043333)|4326
+28|28|city|district capital city|Horadiz|Füzuli rayonu|Yuxarı Qarabağ|Horadiz|0|1|39.447778|47.336389|Horadiz|Горадиз|Füzuli rayonu|-1||POINT (47.336389 39.447778)|4326
+29|29|city|district capital city|Xaçmaz|Xaçmaz rayonu|Quba-Xaçmaz|Xaçmaz|0|1|41.470833|48.809722|Khachmaz|Хачмаз|Xaçmaz rayonu|23||POINT (48.809722 41.470833)|4326
+30|30|city of republican subordination|city|Xankəndi|Respublika tabeli şəhər|Yuxarı Qarabağ|Xankəndi|1|1|39.81528|46.75194|Khankendi|Ханкенди|Xankəndi şəhəri|-1||POINT (46.75194 39.81528)|4326
+31|31|city|district capital city|Xocalı|Xocalı rayonu|Yuxarı Qarabağ|Xocalı|0|1|39.911111|46.789167|Khojaly|Ходжалы|Xocalı rayonu|25||POINT (46.789167 39.911111)|4326
+32|32|city|district capital city|Xocavənd|Xocavənd rayonu|Yuxarı Qarabağ|Xocavənd|0|1|39.795278|47.113056|Khojavend|Ходжавенд|Xocavənd rayonu|26||POINT (47.113056 39.795278)|4326
+33|33|city|district capital city|Xırdalan|Abşeron rayonu|Abşeron|Xırdalan|0|1|40.448611|49.756389|Khyrdalan|Хырдалан|Abşeron raoyonu|1|Апшеронский район|POINT (49.756389 40.448611)|4326
+34|34|city|district capital city|Xızı|Xızı rayonu|Abşeron|Xızı|0|1|40.907778|49.073333|Khizi|Хызы|Xızı rayonu|24||POINT (49.073333 40.907778)|4326
+35|35|city|district capital city|Xudat|Xaçmaz rayonu|Quba-Xaçmaz|Xudat|0|1|41.628056|48.682778|Khudat|Худат|Xaçmaz rayonu|-1||POINT (48.682778 41.628056)|4326
+36|36|city|district capital city|İmişli|İmişli rayonu|Aran|İmişli|0|1|39.869722|48.06|Imishli|Имишли|İmişli rayonu|27||POINT (48.06 39.869722)|4326
+37|37|city|district capital city|İsmayıllı|İsmayıllı rayonu|Dağlıq Şirvan|İsmayıllı|0|1|40.79|48.151944|Ismayilli|Исмаиллы|İsmayıllı rayonu|28||POINT (48.151944 40.79)|4326
+38|38|city|district capital city|Kəlbəcər|Kəlbəcər rayonu|Kəlbəcər-Laçın|Kəlbəcər|0|1|40.106667|46.038333|Kalbajar|Кельбаджар|Kəlbəcər rayonu|29||POINT (46.038333 40.106667)|4326
+39|39|city|district capital city|Kürdəmir|Kürdəmir rayonu|Aran|Kürdəmir|0|1|40.338333|48.160833|Kurdamir|Кюрдамир|Kürdəmir rayonu|31||POINT (48.160833 40.338333)|4326
+40|40|city|district capital city|Qax|Qax rayonu|Şəki-Zaqatala|Qax|0|1|41.4225|46.924167|Qakh|Гах|Qax rayonu|32||POINT (46.924167 41.4225)|4326
+41|41|city|district capital city|Qazax|Qazax rayonu|Gəncə-Qazax|Qazax|0|1|41.093333|45.366111|Qazakh|Газах|Qazax rayonu|33||POINT (45.366111 41.093333)|4326
+42|42|city|district capital city|Qəbələ|Qəbələ rayonu|Şəki-Zaqatala|Qəbələ|0|1|40.981389|47.845833|Qabala|Габала|Qəbələ rayonu|34||POINT (47.845833 40.981389)|4326
+43|43|city|district capital city|Qobustan|Qobustan rayonu|Dağlıq Şirvan|Qobustan|0|1|40.536667|48.932778|Gobustan|Гобустан|Qobustan rayonu|35||POINT (48.932778 40.536667)|4326
+44|44|city|district capital city|Qovlar|Tovuz rayonu|Tovuz|Qovlar|0|1|40.941944|45.735833|Qovlar|Говлар|Tovuz rayonu|-1||POINT (45.735833 40.941944)|4326
+45|45|city|district capital city|Quba|Quba rayonu|Quba-Xaçmaz|Quba|0|1|41.359722|48.5125|Quba|Губа|Quba rayonu|36||POINT (48.5125 41.359722)|4326
+46|46|city|district capital city|Qubadlı|Qubadlı rayonu|Kəlbəcər-Laçın|Qubadlı|0|1|39.343889|46.579722|Qubadli|Губадлы|Qubadlı rayonu|37||POINT (46.579722 39.343889)|4326
+47|47|city|district capital city|Qusar|Qusar rayonu|Quba-Xaçmaz|Qusar|0|1|41.426389|48.435556|Qusar|Гусар|Qusar rayonu|38||POINT (48.435556 41.426389)|4326
+48|48|city|district capital city|Laçın|Laçın rayonu|Kəlbəcər-Laçın|Laçın|0|1|39.640833|46.546944|Lachin|Лачин|Laçın rayonu|39||POINT (46.546944 39.640833)|4326
+49|49|city|district capital city|Lerik|Lerik rayonu|Lənkəran|Lerik|0|1|38.775278|48.415278|Lerik|Лерик|Lerik rayonu|40||POINT (48.415278 38.775278)|4326
+50|50|city of republican subordination|district capital city|Lənkəran|Respublika tabeli şəhər|Lənkəran|Lənkəran|1|1|38.75361|48.85111|Lankaran|Ленкорань|Lənkəran rayonu|41||POINT (48.85111 38.75361)|4326
+51|51|city|district capital city|Liman|Lənkəran rayonu|Lənkəran|Liman|0|1|38.87333|48.81389|Liman|Лиман|Lənkəran rayonu|-1||POINT (48.81389 38.87333)|4326
+52|52|city|district capital city|Masallı|Masallı rayonu|Lənkəran|Masallı|0|1|39.034167|48.665556|Masally|Масаллы|Masallı rayonu|42||POINT (48.665556 39.034167)|4326
+53|53|city of republican subordination|city|Mingəçevir|Respublika tabeli şəhər|Aran|Mingəçevir|1|1|40.77|47.048889|Mingachevir|Мингечевир|Mingəçevir şəhəri|-1||POINT (47.048889 40.77)|4326
+54|54|city of republican subordination|city|Naftalan|Respublika tabeli şəhər|Gəncə-Qazax|Naftalan|1|1|40.506667|46.825|Naftalan|Нафталан|Naftalan şəhəri|-1||POINT (46.825 40.506667)|4326
+55|55|city of republican subordination|a-republic capital city|Naxçıvan|Respublika tabeli şəhər|Naxçıvan|Naxçıvan|1|1|39.20889|45.41222|Nakhchivan city|Нахчыван|Naxçıvan şəhəri|-1||POINT (45.41222 39.20889)|4326
+56|56|city|district capital city|Neftçala|Neftçala rayonu|Aran|Neftçala|0|1|39.358611|49.246944|Neftchala|Нефтчала|Neftçala rayonu|43||POINT (49.246944 39.358611)|4326
+57|57|city|district capital city|Oğuz|Oğuz rayonu|Şəki-Zaqatala|Oğuz|0|1|41.070833|47.458333|Oghuz|Огуз|Oğuz rayonu|44||POINT (47.458333 41.070833)|4326
+58|58|city|district capital city|Ordubad|Respublika tabeli şəhər|Naxçıvan|Ordubad|0|1|38.908056|46.027778|Ordubad|Ордубад|Ordubad rayonu|45||POINT (46.027778 38.908056)|4326
+59|59|city|district capital city|Saatlı|Saatlı rayonu|Aran|Saatlı|0|1|39.931111|48.369722|Saatly|Саатлы|Saatlı rayonu|46||POINT (48.369722 39.931111)|4326
+60|61|city|district capital city|Salyan|Salyan rayonu|Aran|Salyan|0|1|39.595|48.979167|Salyan|Сальян|Salyan rayonu|48||POINT (48.979167 39.595)|4326
+61|62|city|district capital city|Samux|Samux rayonu|Gəncə-Qazax|Samux|0|1|40.765833|46.408889|Samukh|Самух|Samux rayonu|49||POINT (46.408889 40.765833)|4326
+62|63|city|district capital city|Siyəzən|Siyəzən rayonu|Quba-Xaçmaz|Siyəzən|0|1|41.076111|49.113889|Siyazan|Сиазань|Siyəzən rayonu|51||POINT (49.113889 41.076111)|4326
+63|64|city of republican subordination|city|Sumqayıt|Respublika tabeli şəhər|Abşeron|Sumqayıt|1|1|40.589722|49.668611|Sumgait|Сумгайыт|Sumqayıt şəhəri|-1||POINT (49.668611 40.589722)|4326
+64|65|city|district capital city|Şabran|Şabran rayonu|Quba-Xaçmaz|Şabran|0|1|41.211389|48.986111|Shabran|Шабран|Şabran rayonu|52||POINT (48.986111 41.211389)|4326
+65|66|city|district capital city|Şahbuz|Şahbuz rayonu|Naxçıvan|Şahbuz|0|1|39.407222|45.573889|Shahbuz|Шахбуз|Şahbuz rayonu|53||POINT (45.573889 39.407222)|4326
+66|67|city|district capital city|Şamaxı|Şamaxı rayonu|Daşlıq Şirvan|Şamaxı|0|1|40.630278|48.641389|Shamakhi|Шемахы|Şamaxı rayonu|54||POINT (48.641389 40.630278)|4326
+67|68|city of republican subordination|district capital city|Şəki|Respublika tabeli şəhər|Şəki-Zaqatala|Şəki|1|1|41.191944|47.170556|Shaki|Шеки|Şəki rayonu|55||POINT (47.170556 41.191944)|4326
+68|69|city|district capital city|Şəmkir|Şəmkir rayonu|Gəncə-Qazax|Şəmkir|0|1|40.829722|46.018889|Shamkir|Шамкир|Şəmkir rayonu|56||POINT (46.018889 40.829722)|4326
+69|70|city|district capital city|Şərur|Şərur rayonu|Naxçıvan|Şərur|0|1|39.545833|44.972222|Sharur|Шарур|Şərur rayonu|57||POINT (44.972222 39.545833)|4326
+70|71|city of republican subordination|city|Şirvan|Respublika tabeli şəhər|Aran|Şirvan|1|1|39.93194|48.92028|Shirvan|Ширван|Şirvan şəhəri|-1||POINT (48.92028 39.93194)|4326
+71|72|city|district capital city|Şuşa|Şuşa rayonu|Yuxarı Qarabağ|Şuşa|0|1|39.758333|46.748333|Shusha|Шуша|Şuşa rayonu|58||POINT (46.748333 39.758333)|4326
+72|73|city|district capital city|Tərtər|Tərtər rayonu|Yuxarı Qarabağ|Tərtər|0|1|40.345|46.928889|Tartar|Тертер|Tərtər rayonu|59||POINT (46.928889 40.345)|4326
+73|74|city|district capital city|Tovuz|Tovuz rayonu|Gəncə-Qazax|Tovuz|0|1|40.992222|45.628889|Tovuz|Товуз|Tovuz rayonu|60||POINT (45.628889 40.992222)|4326
+74|75|city|district capital city|Ucar|Ucar rayonu|Aran|Ucar|0|1|40.518333|47.654167|Ujar|Уджар|Ucar rayonu|61||POINT (47.654167 40.518333)|4326
+75|76|city|district capital city|Yardımlı|Yardımlı rayonu|Lənkəran|Yardımlı|0|1|38.920556|48.237222|Yardimli|Ярдымлы|Yardımlı rayonu|62||POINT (48.237222 38.920556)|4326
+76|77|city of republican subordination|district capital city|Yevlax|Respublika tabeli şəhər|Aran|Yevlax|1|1|40.617222|47.15|Yevlakh|Евлах|Yevlax rayonu|63||POINT (47.15 40.617222)|4326
+77|78|city|district capital city|Zaqatala|Zaqatala rayonu|Şəki-Zaqatala|Zaqatala|0|1|41.633611|46.643333|Zagatala|Загатала|Zaqatala rayonu|64||POINT (46.643333 41.633611)|4326
+78|79|city|district capital city|Zəngilan|Zəngilan rayonu|Kəlbəcər-Laçın|Zəngilan|0|1|39.065556|46.696944|Zangilan|Зангелан|Zəngilan rayonu|65||POINT (46.696944 39.065556)|4326
+79|80|city|district capital city|Zərdab|Zərdab rayonu|Aran|Zərdab|0|1|40.218333|47.708333|Zardab|Зердаб|Zərdab rayonu|66||POINT (47.708333 40.218333)|4326
+80|81|village|district capital village|Qıvraq qəsəbəsi|Kəngərli rayonu|Naxçıvan|Qıvraq qəsəbəsi|0|0|39.399722|45.113056|Givrag|Кыврак|Kəngərli rayonu|30||POINT (45.113056 39.399722)|4326
+81|82|village|district capital village|Heydərabad qəsəbəsi|Sədərək rayonu|Naxçıvan|Heydərabad qəsəbəsi|0|0|39.7175|44.876389|Heydarabad|Гейдарабад|Sədərək rayonu|50||POINT (44.876389 39.7175)|4326
