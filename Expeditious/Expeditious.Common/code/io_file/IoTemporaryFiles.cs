@@ -6,14 +6,14 @@ namespace Expeditious.Common
     static public class IoTemporaryFiles
     {
         // C:\Users\user\AppData\Local\Temp\
-        static public String GetWinTempFolder()
+        static public String GetWindowsTempFolder()
         {
             return System.IO.Path.GetTempPath();
         }
 
 
         // ny5lpu1s.swi, 0fkfgzeo.xdj
-        static public String GetWinRandomFileName()
+        static public String GetWindowsRandomFileName()
         {
             return Path.GetRandomFileName();
         }
@@ -21,7 +21,7 @@ namespace Expeditious.Common
 
 
         // C:\Users\user\AppData\Local\Temp\tmpyrh4eo.tmp
-        static public String GetWinTempFilePath()
+        static public String GetWindowsTempFilePath()
         {
             return Path.GetTempFileName();
         }
