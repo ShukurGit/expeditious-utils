@@ -35,7 +35,7 @@ namespace Expeditious.Common
             }
 
 
-            public static string Return(string text)
+            public static string Restore(string text)
             {
                 if (string.IsNullOrWhiteSpace(text)) return text;
 
