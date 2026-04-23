@@ -55,4 +55,5 @@ namespace Expeditious.Common
                 return sb.ToString();
             }
         }
+    }
 }

@@ -12,19 +12,19 @@ namespace Expeditious.UsefulExtensions.Text
         }
 
 
-        static public String xSurrounWithSquareBrackets(string str, bool shiftAsideBySpaces = false)
+        static public String xSurrounWithSquareBrackets(this string str, bool shiftAsideBySpaces = false)
         {
             return TextFormatter.SurroundWithChars(str, '[', ']', shiftAsideBySpaces);
         }
 
 
-        static public String xSurrounWithCurlyBrackets(string str, bool shiftAsideBySpaces = false)
+        static public String xSurrounWithCurlyBrackets(this string str, bool shiftAsideBySpaces = false)
         {
             return TextFormatter.SurroundWithChars(str, '{', '}', shiftAsideBySpaces);
         }
 
 
-        static public String xSurrounWithQuotationMarks(string str, bool shiftAsideBySpaces = false, bool useSafeSymbol = true)
+        static public String xSurrounWithQuotationMarks(this string str, bool shiftAsideBySpaces = false, bool useSafeSymbol = true)
         {
             char symbol = useSafeSymbol ? '"' : '″';
             return TextFormatter.SurroundWithChars(str, symbol, symbol, shiftAsideBySpaces);
@@ -36,25 +36,25 @@ namespace Expeditious.UsefulExtensions.Text
 
 
 
-        static public String xRemoveSurroundedParentheses(String str, Boolean trimBefore = true)
+        static public String xRemoveSurroundedParentheses( this String str, Boolean trimBefore = true)
         {
             return TextFormatter.RemoveSurroundedChars(str, '(', ')', trimBefore);
         }
 
 
-        static public String xRemoveSurroundedSquareBrackets(String str, Boolean trimBefore = true)
+        static public String xRemoveSurroundedSquareBrackets(this String str, Boolean trimBefore = true)
         {
             return TextFormatter.RemoveSurroundedChars(str, '[', ']', trimBefore);
         }
 
 
-        static public String xRemoveSurroundedCurlyBrackets(String str, Boolean trimBefore = true)
+        static public String xRemoveSurroundedCurlyBrackets(this String str, Boolean trimBefore = true)
         {
             return TextFormatter.RemoveSurroundedChars(str, '{', '}', trimBefore);
         }
 
 
-        static public String xRemoveSurroundedQuotationMarks(String str, Boolean trimBefore = true)
+        static public String xRemoveSurroundedQuotationMarks(this String str, Boolean trimBefore = true)
         {
             char safeSymbol = '″';
             char symbol = '"';

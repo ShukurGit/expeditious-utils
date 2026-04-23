@@ -1,6 +1,9 @@
 ﻿
 
-namespace AppConsoleTester.ActionsScope
+using Expeditious.UsefulExtensions.Text;
+
+
+namespace AppConsoleTester
 {
     public static class Actions_A
     {
@@ -12,6 +15,11 @@ namespace AppConsoleTester.ActionsScope
         private static async Task Action_A1()
         {
             Console.WriteLine("-");
+
+            string dd = ";sdfkj;lsdk;lfskdl;'\",'\",'\",kf";
+
+            var dsds = dd..xReplaceProblematicPunctuationChars();
+            int re = 90;
         }
     }
 }

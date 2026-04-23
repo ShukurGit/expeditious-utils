@@ -7,4 +7,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Expeditious.Candidates\Expeditious.Candidates.csproj" />
+    <ProjectReference Include="..\Expeditious.Common\Expeditious.Common.csproj" />
+    <ProjectReference Include="..\Expeditious.UsefulExtensions\Expeditious.UsefulExtensions.csproj" />
+  </ItemGroup>
+
 </Project>

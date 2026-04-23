@@ -7,8 +7,8 @@ namespace AppConsoleTester
     public static class EntryPoint
     {
         public static async Task Run()
-        { 
-
+        {
+            await ActionsScope.Run();
         }
     }
 }
