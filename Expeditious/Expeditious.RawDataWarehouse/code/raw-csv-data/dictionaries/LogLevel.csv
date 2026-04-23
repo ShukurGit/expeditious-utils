@@ -1,0 +1,9 @@
+No|Code|Value|AliasEn|AliasAz|AliasRu|DescriptionEn|DescriptionAz|DescriptionRu
+1|UNK|Unknown|Unknown|Naməlum|Неизвестно|||
+2|UND|Undefined|Undefined|Qeyri-müəyyən|Не определён|||
+3|INFO|Info|Info|Məlumat|Информация|||
+4|WARN|Warn|Warn|Xəbərdarlıq|Предупреждение|||
+5|DEBUG|Debug|Debug|Sazlama|Отлаживание|||
+6|TRACE|Trace|Trace|İzləmə|Отслеживание|||
+7|ERROR|Error|Error|Xəta|Ошибка|This log entry notes that at least one system component is inoperable and is interfering with the operability of other functionalities.|Bu qeyd qeyd edir ki, ən azı bir sistem komponenti işləmir və digər funksiyaların işləməsinə mane olur.|В этой записи журнала отмечается, что по крайней мере один системный компонент неработоспособен и мешает работе других функциональных возможностей.
+8|FATAL|Fatal|Fatal|Ölümcül|Летальный|||

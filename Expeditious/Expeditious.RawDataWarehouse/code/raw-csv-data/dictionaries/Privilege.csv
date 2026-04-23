@@ -1,0 +1,12 @@
+No|Code|Value|AliasEn|AliasAz|AliasRu|DescriptionEn|DescriptionAz|DescriptionRu
+1|UNK|Unknown|Unknown|Naməlum|Неизвестно|||
+2|UND|Undefined|Undefined|Qeyri-müəyyən|Не определён|||
+3|CREATE|Create|Create|Yaratmaq|Создание|||
+4|READ|Read|Read|Oxumaq|Чтение|||
+5|WRITE|Write|Write|Yazmaq|Запись|||
+6|DELETE|Delete|Delete|Silmək|Удаление|||
+7|APPEND|Append|Append|Əlavə etmək|Добавление|||
+8|INSERT|Insert|Insert|Daxil etmək|Вставить|||
+9|SHARE|Share|Share|Paylaşmaq|Поделиться|||
+10|ASSIGN|Assign|Assign|Təyin etmək|Назначать|||
+11|PUBLISH|Publish|Publish|Dərc etmək|Публиковать|||

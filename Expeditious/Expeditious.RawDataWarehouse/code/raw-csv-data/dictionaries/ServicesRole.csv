@@ -1,0 +1,17 @@
+No|Code|Value|AliasEn|AliasAz|AliasRu|DescriptionEn|DescriptionAz|DescriptionRu
+1|UNK|Unknown|Unknown|Naməlum|Неизвестно|||
+2|UND|Undefined|Undefined|Qeyri-müəyyən|Не определён|||
+3|ADMIN|admin|admin|idarəçi|админ|||
+4|USER|user|user|istifadəçi|пользователь|||
+5|GUEST|guest|guest|qonaq|гость|||
+6|EDITOR|editor|editor|redaktor|редактор|||
+7|MANAGER|manager|manager|menecer|менеджер|||
+8|AUTHOR|author|author|müəllif|автор|||
+9|MODERATOR|moderator|moderator|tənzimləyici|регулятор|||
+10|MEMBER|member|member|üzv|член|||
+11|SUBSCRIBER|subscriber|subscriber|abunəçi|подписчик|||
+12|PROVIDER|provider|provider|təchizatçı|провайдер / поставщик|||
+13|ANONYMOUS|anonymous|anonymous|anonim|аноним|||
+14|ENGINEER|engineer|engineer|mühəndis|инженер|||
+15|CONTRIBUTOR|contributor|contributor|iştirakçı|участник|||
+16|COLLABORATOR|collaborator|collaborator|əməkdaş|сотрудник|||
