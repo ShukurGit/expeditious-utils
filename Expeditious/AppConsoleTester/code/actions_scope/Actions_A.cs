@@ -18,7 +18,7 @@ namespace AppConsoleTester
 
             string dd = ";sdfkj;lsdk;lfskdl;'\",'\",'\",kf";
 
-            var dsds = dd..xReplaceProblematicPunctuationChars();
+            var dsds = dd.xReplaceProblematicPunctuationChars();
             int re = 90;
         }
     }

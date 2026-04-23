@@ -3,6 +3,8 @@
   <Project Path="Expeditious.Candidates/Expeditious.Candidates.csproj" />
   <Project Path="Expeditious.Common/Expeditious.Common.csproj" />
   <Project Path="Expeditious.DataSecurity/Expeditious.DataSecurity.csproj" Id="56b25e84-0d96-4284-8bbe-9f94b8d4ba2d" />
+  <Project Path="Expeditious.MockData/Expeditious.MockData.csproj" Id="d31fe7cf-0693-4067-94d4-19b33a445487" />
+  <Project Path="Expeditious.RawDataWarehouse/Expeditious.RawDataWarehouse.csproj" Id="7cc8ba2b-ffff-4249-87c7-2e72bf6bc786" />
   <Project Path="Expeditious.UsefulExtensions/Expeditious.UsefulExtensions.csproj" />
   <Project Path="Expeditious.WpfWinUI/Expeditious.WpfWinUI.csproj" />
 </Solution>
