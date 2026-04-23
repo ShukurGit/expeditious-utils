@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="AppConsoleTester/AppConsoleTester.csproj" />
+  <Project Path="Expeditious.Candidates/Expeditious.Candidates.csproj" />
+  <Project Path="Expeditious.Common/Expeditious.Common.csproj" />
+  <Project Path="Expeditious.UsefulExtensions/Expeditious.UsefulExtensions.csproj" />
+  <Project Path="Expeditious.WpfWinUI/Expeditious.WpfWinUI.csproj" />
+</Solution>
