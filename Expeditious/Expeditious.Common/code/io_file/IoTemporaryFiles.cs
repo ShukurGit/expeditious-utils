@@ -1,9 +1,9 @@
 ﻿
 
 
-namespace Expedite.Utils.FileIO
+namespace Expeditious.Common
 {
-    static public class TemporaryFiles
+    static public class IoTemporaryFiles
     {
         // C:\Users\user\AppData\Local\Temp\
         static public String GetWinTempFolder()
