@@ -29,29 +29,29 @@ namespace Expeditious.Candidates
             Directory.CreateDirectory(_options.SpecificProjectFolder);
             _worker = Task.Run(ProcessQueue);
 
-            AppDomain.CurrentDomain.ProcessExit += (_, __) => SafeShutdown();
-            AppDomain.CurrentDomain.DomainUnload += (_, __) => SafeShutdown();
+            //AppDomain.CurrentDomain.ProcessExit += (_, __) => SafeShutdown();
+            //AppDomain.CurrentDomain.DomainUnload += (_, __) => SafeShutdown();
         }
 
 
-        private static void SafeShutdown()
-        {
-            try
-            {
-                _queue.CompleteAdding();
+        //private static void SafeShutdown()
+        //{
+        //    try
+        //    {
+        //        _queue.CompleteAdding();
 
-                // вычитываем остаток синхронно
-                while (_queue.TryTake(out var log))
-                {
-                    var filePath = GetFilePath();
-                    Directory.CreateDirectory(Path.GetDirectoryName(filePath));
-                    File.AppendAllText(filePath, log + Environment.NewLine);
-                }
+        //        // вычитываем остаток синхронно
+        //        while (_queue.TryTake(out var log))
+        //        {
+        //            var filePath = GetFilePath();
+        //            Directory.CreateDirectory(Path.GetDirectoryName(filePath));
+        //            File.AppendAllText(filePath, log + Environment.NewLine);
+        //        }
 
-                _worker?.Wait(1000);
-            }
-            catch { }
-        }
+        //        _worker?.Wait(1000);
+        //    }
+        //    catch { }
+        //}
 
         public static void Configure(EasyLoggerOptions options)
         {
