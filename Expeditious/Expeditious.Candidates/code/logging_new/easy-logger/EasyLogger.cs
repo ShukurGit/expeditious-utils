@@ -9,13 +9,16 @@ using System.Text.Json;
 
 namespace Expeditious.Candidates
 {
+
+    // НЕ ЗАБЫВАЙ В КОНЦЕ !!!! ->    EasyLogger.Shutdown();
+
     public static class EasyLogger
     {
         private static readonly BlockingCollection<string> _queue = new();
         private static readonly CancellationTokenSource _cts = new();
         private static Task _worker;
 
-        private static EasyLoggerOptions _options = new EasyLoggerOptions();
+        public static EasyLoggerOptions _options = new EasyLoggerOptions();
 
         private static string _lastLogFilePath = string.Empty;
         public static string LastLogFilePath { get { return _lastLogFilePath; } }
@@ -23,15 +26,37 @@ namespace Expeditious.Candidates
 
         static EasyLogger()
         {
-            Directory.CreateDirectory(_options.LogRootDirectory);
+            Directory.CreateDirectory(_options.SpecificProjectFolder);
             _worker = Task.Run(ProcessQueue);
+
+            AppDomain.CurrentDomain.ProcessExit += (_, __) => SafeShutdown();
+            AppDomain.CurrentDomain.DomainUnload += (_, __) => SafeShutdown();
         }
 
+
+        private static void SafeShutdown()
+        {
+            try
+            {
+                _queue.CompleteAdding();
+
+                // вычитываем остаток синхронно
+                while (_queue.TryTake(out var log))
+                {
+                    var filePath = GetFilePath();
+                    Directory.CreateDirectory(Path.GetDirectoryName(filePath));
+                    File.AppendAllText(filePath, log + Environment.NewLine);
+                }
+
+                _worker?.Wait(1000);
+            }
+            catch { }
+        }
 
         public static void Configure(EasyLoggerOptions options)
         {
             _options = options ?? new EasyLoggerOptions();
-            Directory.CreateDirectory(_options.LogRootDirectory);
+            Directory.CreateDirectory(_options.SpecificProjectFolder);
         }
 
 
@@ -139,9 +164,10 @@ namespace Expeditious.Candidates
                     await File.AppendAllTextAsync(filePath, log + Environment.NewLine);
                     Console.WriteLine(log);
                 }
-                catch
+                catch (Exception ex)
                 {
                     // не падаем из-за логгера
+                    Console.WriteLine("LOGGER ERROR: " + ex);
                 }
             }
         }
@@ -159,7 +185,7 @@ namespace Expeditious.Candidates
         private static string GetFilePath()
         {
             string extension = _options.UseJson ? "json" : "txt";
-               _lastLogFilePath = Path.Combine(_options.LogRootDirectory, _options.SpecificProjectsName, $"log{_options.SpecificProjectsName}_{TimestampNowAz():yyyy-MM-dd}.{extension}");
+               _lastLogFilePath = Path.Combine(_options.SpecificProjectFolder, $"log{_options.SpecificProjectName}_{TimestampNowAz():yyyy-MM-dd}.{extension}");
             return _lastLogFilePath; // Path.Combine(_options.LogDirectory, $"log_{DateTime.UtcNow:yyyy-MM-dd}.txt");
         }
 

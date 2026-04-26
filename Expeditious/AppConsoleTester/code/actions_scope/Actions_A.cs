@@ -40,8 +40,17 @@ namespace AppConsoleTester
             }
 
 
+            EasyLogger.Info("info 2");
+
+            //Thread.Sleep(200);
+            //Thread.Sleep(200);
+            //Thread.Sleep(2000);
+            EasyLogger.Warning("warn 2");
+            //EasyLogger.Shutdown();
+
             var dasdasdasasdasdas = sdd.GetPermutations<int>();
 
+            return;
 
             var items = new[] { "A", "B", "C" };
 
