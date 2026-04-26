@@ -1,0 +1,25 @@
+﻿            
+            // this class library has no dependance. keep this status
+
+
+            // start
+            Logs.ConfigureLogger(@"c:\logs\root\", "prj", "log", LogFilePathMode.DynamicSeparatedByDate);
+            Logs.SetLogMode(LogMode.Production);
+            // now we have singleton logger
+
+            // logging process
+            MethodBase mb = MethodBase.GetCurrentMethod();
+            Logs.AddInfo("some info", mb);
+            Logs.AddWarn("some warn", mb);
+            Exception ex = new DivideByZeroException("divide by zero");
+            Logs.AddError(ex, "some error", mb);
+
+            Logs.AddLine(FillingChars.Stars);
+            Logs.AddLine(FillingChars.EmptyLine);
+            Logs.AddLine(FillingChars.SolidLine);
+            Logs.AddLine(FillingChars.DashLine);
+
+            // get some info
+            String logFilePath = Logs.GetCurrentLogFilepath();
+            String lastLogText = Logs.GelLastLogRecord();
+            ILogger loggerSingleton = Logs.InstanceLogger;

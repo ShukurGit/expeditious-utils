@@ -1,6 +1,7 @@
 ﻿
 
 using Expeditious.Candidates;
+using Expeditious.Candidates.code.logging_new;
 using Expeditious.UsefulExtensions.Text;
 using System.Xml.Linq;
 using Yeni.YeniCore;
@@ -23,10 +24,21 @@ namespace AppConsoleTester
             int[] sdd = [1, 2, 3, 4,];
             var chars = new[] { 'A', 'B', 'C',  };
 
-            var de = PermutationExtensions.PermutateIntArray(sdd);
+            var de = PermutationHelper.PermutateIntArray(sdd);
 
-            var dewrdfsd = PermutationExtensions.PermutateStringsSymbols(chars);
+            var dewrdfsd = PermutationHelper.PermutateStringsSymbols(chars);
             //var dsad = ArrayPermutation_.ArrayPermutation(sdd, 0, 3);
+
+            //Logger.Test_Run();
+
+            List<string> tr = new List<string>();
+
+            for (int i = 0; i < 10; i++)
+            {
+                tr.Add(TraceContext.TraceId);
+                Console.WriteLine(TraceContext.TraceId);
+            }
+
 
             var dasdasdasasdasdas = sdd.GetPermutations<int>();
 
