@@ -1,10 +1,8 @@
 ﻿
 
 using Expeditious.Candidates;
-using Expeditious.Candidates.code.logging_new;
+using Expeditious.Common;
 using Expeditious.UsefulExtensions.Text;
-using System.Xml.Linq;
-using Yeni.YeniCore;
 
 
 namespace AppConsoleTester
@@ -13,7 +11,48 @@ namespace AppConsoleTester
     {
         public static async Task StartAction()
         {
-            await Action_A1();
+            await Action_A2();
+        }
+
+
+        private static async Task Action_A2()
+        {
+            var ti1 = TraceContext.TraceId;
+            Console.WriteLine(ti1);
+            var ti2 = TraceContext.TraceId;
+            Console.WriteLine(ti2);
+
+            ElementaryLogger.Configure(new CommonLoggerOptions()
+            {
+                IncludeStackTraceByDefault = false,
+                LogRootDirectory = @"c:\Logs\",
+                MaxStackTraceLines = 15,
+                MinLevel = CommonLogLevel.Info,
+                SpecificProjectName = "MyProject",
+                UseJson = true,
+            });
+            ElementaryLogger.Info("info");
+            ElementaryLogger.Info("info2");
+            ElementaryLogger.Warning("Warn");
+
+
+
+            ComplexLogger.Configure(new CommonLoggerOptions()
+            {
+                IncludeStackTraceByDefault = false,
+                LogRootDirectory = @"c:\Logs\",
+                MaxStackTraceLines = 15,
+                MinLevel = CommonLogLevel.Info,
+                SpecificProjectName = "MyProject2",
+                UseJson = true,
+            });
+            ComplexLogger.Info("info");
+            ComplexLogger.Info("info2");
+            ComplexLogger.Warning("Warn");
+            ComplexLogger.Shutdown();    // !!! dont forget
+
+
+            string stop = "";
         }
 
         private static async Task Action_A1()
@@ -77,3 +116,4 @@ namespace AppConsoleTester
         }
     }
 }
+

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Expeditious.Candidates.code.logging_new.aaqqqqqqqqqqqqq
+namespace Expeditious.Common
 {
     public static class CommonLogHelper
     {
@@ -17,7 +17,7 @@ namespace Expeditious.Candidates.code.logging_new.aaqqqqqqqqqqqqq
 
         static public string TimestampEverywhereAzeStr()
         {
-            return TimestampEverywhereAze().ToString("yyyy.MM.dd HH:mm:ss.fffffff");
+            return TimestampEverywhereAze().ToString("yyyy-MM-ddTHH:mm:ss.fffffff");
         }
 
 

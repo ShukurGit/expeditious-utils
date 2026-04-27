@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Expeditious.Candidates.code.logging_new.aaqqqqqqqqqqqqq
+namespace Expeditious.Common
 {
     public class CommonLoggerOptions
     {
@@ -11,7 +11,7 @@ namespace Expeditious.Candidates.code.logging_new.aaqqqqqqqqqqqqq
         public bool UseJson { get; set; } = true;
         public int MaxStackTraceLines { get; set; } = 15;
         public string LogRootDirectory { get; set; } = @"c:\Logs\";
-        public string SpecificProjectName { get; set; } = @"SomeProject";
+        public string SpecificProjectName { get; set; } = @"MyProject";
 
         public string SpecificProjectFolder { get { return this.GetSpecificProjectFolder(); } }
 

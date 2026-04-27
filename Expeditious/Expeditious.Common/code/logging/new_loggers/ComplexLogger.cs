@@ -1,12 +1,10 @@
 ﻿
 using System.Collections.Concurrent;
-using System.Diagnostics;
 using System.Text;
 using System.Text.Json;
-using static System.Runtime.InteropServices.JavaScript.JSType;
 
 
-namespace Expeditious.Candidates.code.logging_new.aaqqqqqqqqqqqqq
+namespace Expeditious.Common
 {
 
     // !!!!!!!!!!!!!!!!!!!
@@ -35,6 +33,7 @@ namespace Expeditious.Candidates.code.logging_new.aaqqqqqqqqqqqqq
         public static void Configure(CommonLoggerOptions options)
         {
             _options = options ?? new CommonLoggerOptions();
+            Directory.CreateDirectory(_options.SpecificProjectFolder);
         }
 
         private static bool IncludeStackInfo(CommonLogLevel level, bool? includeStack = null)

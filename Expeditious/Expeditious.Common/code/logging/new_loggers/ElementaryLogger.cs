@@ -3,7 +3,7 @@ using System.Text;
 using System.Text.Json;
 
 
-namespace Expeditious.Candidates.code.logging_new.aaqqqqqqqqqqqqq
+namespace Expeditious.Common
 {
     public static class ElementaryLogger
     {
@@ -76,7 +76,7 @@ namespace Expeditious.Candidates.code.logging_new.aaqqqqqqqqqqqqq
                     sb.Append(CommonLogHelper.TrimStackTrace(ex.ToString(), _options.MaxStackTraceLines));
                 }
             }
-
+            sb.AppendLine();
             return sb.ToString();
         }
 

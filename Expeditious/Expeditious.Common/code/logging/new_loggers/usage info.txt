@@ -1,0 +1,41 @@
+﻿
+
+ElementaryLogger - статичный логгер. Самый примитивный.
+Записывает прямо в файл (txt, json), только без асинхронности, потока и воркеров.
+
+ElementaryLogger.Configure(new CommonLoggerOptions()
+{
+    IncludeStackTraceByDefault = false,
+    LogRootDirectory = @"c:\Logs\",
+    MaxStackTraceLines = 15,
+    MinLevel = CommonLogLevel.Info,
+    SpecificProjectName = "MyProject",
+    UseJson = false
+});
+ElementaryLogger.Info("info");
+ElementaryLogger.Info("info2");
+ElementaryLogger.Warning("Warn");
+
+
+
+=========================================================================================================================
+
+
+
+ComplexLogger - статичный логгер. Несколько обогащенный.
+Самое главное - записывает в файл (txt, json) отложенно в потоке воркером. Тем самым не задерживает исполнение программы.
+НЕ ЗАБУДЬ В КОНЦЕ - ComplexLogger.Shutdown(); 
+
+ComplexLogger.Configure(new CommonLoggerOptions()
+{
+    IncludeStackTraceByDefault = false,
+    LogRootDirectory = @"c:\Logs\",
+    MaxStackTraceLines = 15,
+    MinLevel = CommonLogLevel.Info,
+    SpecificProjectName = "MyProject",
+    UseJson = false
+});
+ComplexLogger.Info("info");
+ComplexLogger.Info("info2");
+ComplexLogger.Warning("Warn");
+ComplexLogger.Shutdown();    // !!! dont forget

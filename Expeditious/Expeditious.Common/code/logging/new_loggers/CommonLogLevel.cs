@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Expeditious.Candidates.code.logging_new.aaqqqqqqqqqqqqq
+namespace Expeditious.Common
 {
     public enum CommonLogLevel
     {
