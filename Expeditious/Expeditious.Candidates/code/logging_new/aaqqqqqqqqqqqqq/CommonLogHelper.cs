@@ -15,6 +15,11 @@ namespace Expeditious.Candidates.code.logging_new.aaqqqqqqqqqqqqq
         }
 
 
+        static public string TimestampEverywhereAzeStr()
+        {
+            return TimestampEverywhereAze().ToString("yyyy.MM.dd HH:mm:ss.fffffff");
+        }
+
 
         public static string GetFilePath(CommonLoggerOptions options)
         {

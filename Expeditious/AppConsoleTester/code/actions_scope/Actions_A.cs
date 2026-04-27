@@ -19,6 +19,12 @@ namespace AppConsoleTester
         private static async Task Action_A1()
         {
 
+            var ti1 = TraceContext.TraceId;
+            Console.WriteLine(ti1);
+            var ti2 = TraceContext.TraceId;
+            Console.WriteLine(ti2);
+
+
             //YeniVariantsCore_bax.RunAA();
 
             int[] sdd = [1, 2, 3, 4,];
