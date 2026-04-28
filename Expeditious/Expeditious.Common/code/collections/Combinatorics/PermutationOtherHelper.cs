@@ -1,8 +1,6 @@
-﻿
-
-namespace Expeditious.Common
+﻿namespace Expeditious.Common.Combinatorics
 {
-    public static class PermutationHelper
+    public static class PermutationOtherHelper
     {
         #region _  easy ready wrappers  _
 
