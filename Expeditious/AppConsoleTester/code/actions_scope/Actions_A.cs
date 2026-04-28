@@ -48,6 +48,24 @@ namespace AppConsoleTester
                 "Gəncə");
 
 
+
+            var subsets = CombinationHelper.GetNonEmptySubsetsSortedByLengthDesc(
+    new[] { "A", "B", "C" });
+
+
+
+            string ddddddd = CollectionTextFormatter.ToMultilineText(subsets);
+
+            /*
+            [A, B, C]
+            [A, B]
+            [A, C]
+            [B, C]
+            [A]
+            [B]
+            [C]
+            */
+
             int rere = 90;
         }
 
