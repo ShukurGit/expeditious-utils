@@ -6,7 +6,7 @@ namespace Expeditious.Common
     {
         private static int _counter;
 
-        public static void SetStartNubber(int startFromThis) => Interlocked.Exchange(ref _counter, startFromThis - 1);
+        public static void SetStartNumber(int startFromThisNumber) => Interlocked.Exchange(ref _counter, startFromThisNumber - 1);
 
         public static int Next() => Interlocked.Increment(ref _counter);
 
