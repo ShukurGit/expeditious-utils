@@ -214,3 +214,16 @@ namespace Expeditious.Common
     }
 
 }
+
+
+/*
+ string text = "Salam Bakı şəhəri. Şuşa və Gəncə gözəldir.";
+
+bool hasBaku1 = TextSearchHelper.ContainsWord(text, "Bakı");   // true
+bool hasBaku2 = TextSearchHelper.ContainsWord(text, "BAKI");   // true
+bool hasBaku3 = TextSearchHelper.ContainsWord(text, "bakı");   // true
+bool hasBaku4 = TextSearchHelper.ContainsWord(text, "BakI");   // true
+
+bool hasShusha = TextSearchHelper.ContainsWord(text, "ŞUŞA");  // true
+bool hasGanja = TextSearchHelper.ContainsWord(text, "GƏNCƏ");  // true
+ */
